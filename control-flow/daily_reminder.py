@@ -40,19 +40,19 @@ time_bound = input("Is the task time-bound? (yes or no): ")
 match priority:
     case "high":
         priority_message = "high priority"
-        if time_bound.lower() == "yes":
+        if time_bound == "yes":
             reminder = f"Today, you have a {priority_message} task '{task}' that requires immediate attention today!"
         else:
             reminder = f"Today, you have a {priority_message} task '{task}'."
     case "medium":
         priority_message = "medium priority"
-        if time_bound.lower() == "yes":
+        if time_bound == "yes":
             reminder = f"Today, you have a {priority_message} task '{task}' that requires attention today!"
         else:
             reminder = f"Today, you have a {priority_message} task '{task}'."
     case "low":
         priority_message = "low priority"
-        if time_bound.lower() == "yes":
+        if time_bound == "yes":
             reminder = f"Today, you have a {priority_message} task '{task}' that needs to be done today!"
         else:
             reminder = f"Today, you have a {priority_message} task '{task}'."
