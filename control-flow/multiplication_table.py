@@ -1,6 +1,6 @@
 #Use a for loop to generate and print the multiplication table for a given number.
-number = int(input("Enter a number to see its multiplication table: "))
+X = int(input("Enter a number to see its multiplication table: "))
 
-for i in range(1,11):
-    product = number * i
-    print(f"{number} x {i} = {product}")
+for Y in range(1,11):
+    Z = X * Y
+    print(f"{X} x {Y} = {Z}")
