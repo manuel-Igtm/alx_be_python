@@ -1,4 +1,3 @@
-# library_management.py
 
 class Book:
     """A class representing a book with a title, author, and check-out status."""
@@ -65,4 +64,4 @@ class Library:
             print("No books are currently available.")
 
 
-# You can now test this by using the provided main.py script.
+
